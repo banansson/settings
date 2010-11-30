@@ -6,5 +6,5 @@ rem which can be changed in the securiy policy.
 setlocal
 set src=%~dp0
 set dst=%HOMEDRIVE%%HOMEPATH%\
-rem mklink /J "%dst%vimfiles" "%src%"
-rem mklink "%dst%_vimrc" "%src%vimrc"
+mklink /J "%dst%vimfiles" "%src%"
+mklink "%dst%_vimrc" "%src%vimrc"
