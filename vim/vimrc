@@ -1,0 +1,49 @@
+colorscheme darkspectrum
+set nu!
+set softtabstop=2
+set tabstop=2
+set shiftwidth=2
+set nocompatible      
+syntax on
+filetype on
+filetype indent on
+filetype plugin on
+set ofu=syntaxcomplete#Complete
+set completeopt=longest,menuone
+inoremap <C-Space> <C-x><C-o>
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
+inoremap <expr> <C-n> pumvisible() ? '<C-n>' : '<C-n><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
+inoremap <expr> <M-,> pumvisible() ? '<C-n>' : '<C-x><C-o><C-n><C-p><C-r>=pumvisible() ? "\<lt>Down>" : ""<CR>'
+
+set nobackup
+set nowrap
+set guioptions-=T
+set hls
+set backspace=indent,eol,start
+set virtualedit=block
+
+set statusline=                                          " clear statusline
+set statusline+=%<                                       " cut at start
+set statusline+=%f%m%r                                   " filename + flags
+set statusline+=\ %y[%{strlen(&fenc)?&fenc:&enc}/%{&ff}] " type & encoding
+set statusline+=\ #%n                                    " buf #
+set statusline+=%=                                       " right align the rest
+set statusline+=[%03.b/%02.B]                            " char code at cursor
+set statusline+=[%v,%l/%L(%p%%)]                         " cursor position
+set laststatus=2
+
+"ctrl+c / ctrl+v for copy/paste
+vmap <C-C> "+yi
+vmap <C-X> "+xi
+imap <C-V> <esc>"+gPi
+
+" *nix settings
+if has("unix")
+  set gfn=Monospace\ 9
+endif
+" windows settings
+if has("windows")
+  set guifont=Consolas:h9:cANSI
+  set langmenu=en_US.UTF-8
+  winsize 120 60
+endif

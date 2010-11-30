@@ -1,0 +1,18 @@
+Bash
+--------------------
+Windows: N/A
+Linux  : To be added (you can always link the file with ln)
+
+Vim
+--------------------
+Windows: Run install.bat in the vim directory
+Linux  : To be added (you can always link the file with ln)
+
+Support
+--------------------
+Installing the Monaco font
+  Windows:
+    Right click support/fonts/Monaco.ttf -> Install
+  Linux:
+    $ sudo mkdir /usr/share/fonts/truetype/monaco
+    $ sudo cp support/fonts/Monaco_Linux.ttf /usr/share/fonts/truetype/monaco/
