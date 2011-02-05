@@ -6,7 +6,10 @@ Linux  : To be added (you can always link the file with ln)
 Vim
 --------------------
 Windows: Run install.bat in the vim directory
-Linux  : To be added (you can always link the file with ln)
+Linux  : No automatic method, run the following:
+         cd ~
+         ln -s <repo>/vim/vimrc .vimrc
+         ln -s <repo>/vim .vim
 
 Support
 --------------------
