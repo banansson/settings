@@ -6,16 +6,12 @@ Linux  : To be added (you can always link the file with ln)
 Vim
 --------------------
 Windows: Run install.bat in the vim directory
-Linux  : No automatic method, run the following:
-         cd ~
-         ln -s <repo>/vim/vimrc .vimrc
-         ln -s <repo>/vim .vim
+Linux  : Run install.sh in the vim directory
 
 Support
 --------------------
 Installing the Monaco font
   Windows:
     Right click support/fonts/Monaco.ttf -> Install
-  Linux:
-    $ sudo mkdir /usr/share/fonts/truetype/monaco
-    $ sudo cp support/fonts/Monaco_Linux.ttf /usr/share/fonts/truetype/monaco/
+  Linux: (tested on ubuntu 10.04 and 10.10)
+    Run install-fonts.sh in the support directory (as root)
