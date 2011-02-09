@@ -58,6 +58,7 @@ endif
 if has("gui_running") 
   colorscheme darkspectrum
 	set guioptions-=T            " remove the toolbar
+	set guioptions-=m            " remove the menubar
 	
 	if has("gui_gtk2")
     set guifont=Monaco\ 9
