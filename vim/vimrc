@@ -2,6 +2,7 @@
 set nu!                        " show line numbers
 set nocompatible               " prevent emulation of vi settings, hence it's bugs and limitations
 set nobackup                   " don't create any backup files (~)
+set noswapfile                 " don't create any swap files (.swp)
 set nowrap                     " don't wrap file content
 set hls                        " highlight search results
 set incsearch                  " show search results as you are typing
