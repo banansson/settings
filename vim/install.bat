@@ -1,6 +1,6 @@
 @echo off
 
-rem mklink requires admin rights or the SeCreateSymbolicLinkPrivilege
+rem mklink requires admin rights or the SetCreateSymbolicLinkPrivilege
 rem which can be changed in the securiy policy.
 
 setlocal
