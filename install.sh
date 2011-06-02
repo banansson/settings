@@ -1,10 +1,5 @@
 #!/bin/bash
 
-if [ $EUID -ne 0 ]; then
-  echo "Must be run as root"
-  exit 1
-fi
-
 INSTALL_SCRIPT="install.sh"
 
 PACKS="support bash vim lol"
