@@ -1,17 +1,35 @@
+Install everything
+--------------------
+Windows: not supported
+
+Linux:
+  $ bash install.sh
+
 Bash
 --------------------
-Windows: N/A
-Linux  : To be added (you can always link the file with ln)
+Windows: n/a
+
+Linux:
+  $ cd bash
+  $ sudo bash install.sh
 
 Vim
 --------------------
-Windows: Run install.bat in the vim directory
-Linux  : Run install.sh in the vim directory
+Windows:
+  c:\settings>cd vim
+  c:\settings>install.bat
+
+Linux:
+  $ cd vim
+  $ sudo bash install.sh
 
 Support
 --------------------
 Installing the Monaco font
+
   Windows:
     Right click support/fonts/Monaco.ttf -> Install
-  Linux: (tested on ubuntu 10.04 and 10.10)
-    Run install-fonts.sh in the support directory (as root)
+
+  Linux: (tested on ubuntu 10.04, 10.10, 11.04)
+    $ cd support
+    $ sudo bash install-fonts.sh
