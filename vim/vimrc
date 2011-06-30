@@ -18,7 +18,7 @@ set softtabstop=2              " 2 stops for every tab
 " File types and encoding
 set encoding=utf-8             " create files using utf-8 encoding
 set fileencodings=ucs-bom,utf-8,iso-8859-1 " enable support for files with and without bom characters
-set ffs=unix,dos,mac           " set default file types
+set fileformat=unix            " force unix file format for new files
 
 " Display
 syntax on
