@@ -68,3 +68,7 @@ if has("gui_running")
     set guifont=Consolas:h9:cANSI
 	endif
 endif
+
+let g:vimwiki_list = [{'path':'~/dropbox/documents/notes'}]
+
+
