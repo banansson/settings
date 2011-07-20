@@ -2,7 +2,7 @@
 
 INSTALL_SCRIPT="install.sh"
 
-PACKS="support bash vim lol"
+PACKS="support bash vim"
 for pack in $PACKS; do
   if [ -e $pack/$INSTALL_SCRIPT ]; then
     echo "Installing ${pack}..."
