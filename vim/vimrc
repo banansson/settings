@@ -57,7 +57,7 @@ endif
 
 " gvim specific
 if has("gui_running") 
-  colorscheme darkspectrum
+  colorscheme lucius
   set background=dark
 	set guioptions-=T            " remove the toolbar
 	set guioptions-=m            " remove the menubar
@@ -70,5 +70,4 @@ if has("gui_running")
 endif
 
 let g:vimwiki_list = [{'path':'~/dropbox/documents/notes'}]
-
 
