@@ -57,7 +57,7 @@ endif
 
 " gvim specific
 if has("gui_running") 
-  colorscheme wombat
+  colorscheme oceandeep
   set background=dark
 	set guioptions-=T            " remove the toolbar
 	set guioptions-=m            " remove the menubar
