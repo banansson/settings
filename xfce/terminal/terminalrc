@@ -38,4 +38,5 @@ MiscTabCloseMiddleClick=TRUE
 MiscTabPosition=GTK_POS_TOP
 MiscHighlightUrls=TRUE
 TabActivityColor=#262656568080
+ScrollingBar=TERMINAL_SCROLLBAR_NONE
 
